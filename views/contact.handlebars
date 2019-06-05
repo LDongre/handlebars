@@ -1,0 +1,13 @@
+<h2>contact page</h2>
+
+{{#each list}}
+   {{# each .}}
+      <p> {{.}}</p>
+   {{/each}}
+   <hr>
+{{/each}}
+
+{{#each users as |key value|}}
+<p>{{key value}}</p>
+
+{{/each}}
